@@ -1,0 +1,138 @@
+
+
+/*Cabeça do site*/
+.header {
+    background-color: black;
+    width: 100%;    
+}
+.header .navbar-brand {
+    width: 33%;
+}
+
+.header .navbar-brand img{
+    width: 72%;
+}
+
+
+@media (max-width: 767px ) {
+    .header #navbarTogglerDemo01{
+       display: none;
+    }
+}
+.header form {
+    width: 33%;
+    height: 30px;
+   
+}
+
+.header #botao {
+    background-color: aliceblue;
+    text-align: center;
+    padding: 0px;
+    height: 30px;
+    width: 50px;
+}
+ .header .enter {
+     display: flex;
+     justify-content:center;
+ }
+/*Topo small */
+ .header .small {
+    display: contents;
+ }
+
+ @media (min-width:768px){
+    .header .small {
+        display: contents;
+        display: none;
+     }
+ }
+
+ .header .small img {
+     width: 5%;
+}
+
+/*Botão de logar*/
+.header .enter {
+    width: 33%;
+    justify-content: end;
+  
+}
+ .header .enter .login {
+    margin-right: 60px;
+ }
+.header .login a {
+    display: grid;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.header .login a img {
+    margin: auto;
+    height: 40px;
+}
+
+.header .login:hover{
+    background-color: green;
+    border-radius: 10px;
+}
+
+/*botão de cadastro*/
+.header .enter .cadastro {
+    margin-right: 70px;
+}
+    
+.header .cadastro a {
+    display: grid;
+    text-decoration: none;
+    color: aliceblue; 
+}
+.header .cadastro a img {
+    margin: auto;
+    height: 40px;
+}
+
+.header .cadastro:hover{
+    background-color: green;
+    border-radius: 10px;
+}
+/*---------------------------------*/
+ .header .menu {
+    background-color:black;
+    padding: 0px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+ }
+.header .menu a {
+    text-decoration: none;
+    list-style: none;
+   
+}
+.header .menu a li {
+    padding: 5px;
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+
+@media (min-width:767px){
+    .header .menu {
+        display: none;
+    }
+}
+
+.header .menu{
+    display: none;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+.header #botao:hover ul {
+    display: block;
+    display: block;
+    margin-left: -13px;
+    width: 82px;
+}
+
