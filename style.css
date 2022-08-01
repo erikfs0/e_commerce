@@ -1,4 +1,5 @@
 /*Cabeça do site*/
+
 .header {
     background-color: black;
     width: 100%;
@@ -19,7 +20,6 @@
     }
 }
 
-
 .header form {
     width: 33%;
     height: 30px;
@@ -34,6 +34,18 @@
     width: 50px;
 }
 
+@media (max-width:230px){
+    .header #botao {
+      height: 20px;
+      width: 30px;
+   }
+}
+@media (max-width:220px){
+    .header #botao span {
+        height: 10px;
+        margin-bottom: 10px;
+    }
+}
 .header .enter {
     display: flex;
     justify-content: center;
@@ -50,6 +62,7 @@
         display: none;
     }
 }
+
 
 .header .small img {
     width: 5%;
@@ -146,7 +159,8 @@
 }
 
 .header #botao:hover ul {
-    display: block;
+    z-index: 2;
+    position: absolute;
     display: block;
     margin-left: -16px;
     width: 130px;
@@ -165,6 +179,10 @@
     width: 100%;
 }
 
+.menu2:hover {
+  opacity: 90%;
+}
+
 @media (max-width:767px) {
     .menu2 {
         display: none;
@@ -179,7 +197,60 @@
 }
 
 .menu2 a:hover {
+    
     background-color: blue;
+    color: black;
+}
+/*--------------------CONTEÚDO PRINCIPAL------------*/
+
+.container {
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
 }
 
-.menu a li {}
+@media (max-width:425px){
+    .container .mensagem  {
+     font-size: 15px;
+    }
+}
+
+.container .mensagem {
+    font-size: 25px;
+}
+
+ .container .barra {
+    background-color: #0F5336;
+    height: 6px;
+    width: 100%;
+}
+#motosSecao a {
+    text-decoration: none;
+}
+#motosSecao .motos {
+    width:300px; 
+    height:200px;
+}
+
+#motosSecao .nomeM {
+ font-size: 20px;
+ color: black;
+ margin-bottom: 0px;
+}
+#motosSecao .divisoria {
+    height: 2px;
+    width: 100%;
+    background-color: #0F5336;
+} 
+
+#motosSecao .avista {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+#motosSecao .preco {
+    margin-top: 0px;
+    color: #0F5336;
+}

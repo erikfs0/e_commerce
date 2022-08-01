@@ -93,8 +93,7 @@
             </a>
         </ul>
 
-        <div class="carousel-inner" style="z-index: 0;
-    position: absolute" ;>
+        <div class="carousel-inner" style="z-index: 0" ;>
 
             <div class="carousel-item active">
 
@@ -108,17 +107,49 @@
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev"
-            style="margin-top:230px" ;>
+            style="width: 100px" ;>
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next"
-            style="margin-top:230px" ;>
+            style="width: 100px" ;>
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
     </div>
 
+    <section class="container">
+        <div class="barra"></div>
+        <h1 class="mensagem">Concessonariá autorizada</h1>
+        <div class="barra"></div>
+
+    </section>
+
+    <main class="container" id="motosSecao">
+        <div class="row">
+            <h4 style="text-align: start;">Destaques</h4>
+            <div class="col-sm-4"><a href="#"> <img class="motos" src="img/moto1.png" alt="">
+                    <p class="nomeM">NINJA ZX10R 2022 KRT</p>
+                    <div class="divisoria"></div>
+                    <p class="avista">À vista</p>
+                    <p class="preco">R$ 104.990.00</p>
+                </a></div>
+            <div class="col-sm-4"><a href="#"> <img class="motos" src="img/moto2.png" alt="">
+                    <p class="nomeM">YAMAHA MT-03 ABS 2021</p>
+                    <div class="divisoria"></div>
+                    <p class="avista">À vista</p>
+                    <p class="preco"></p>R$ 29.620.00
+                </a></div>
+            <div class="col-sm-4"><a href="#"> <img class="motos" src="img/moto3.png" alt="">
+                    <p class="nomeM">HONDA XRE 300 2021</p>
+                    <div class="divisoria"></div>
+                    <p class="avista">À vista</p>
+                    <p class="preco"></p>R$ 20.890.00
+                </a></div>
+
+        </div>
+
+    </main>
 
 
 
