@@ -21,58 +21,102 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
                     aria-label="Toggle navigation" id="botao">
-                    <span class="navbar-toggler-icon" style="width:50%";></span>
-                
-            <ul class="menu">
-                <a href="#">
-                    <li>Categorias</li>
-                </a>
-                <a href="#">
-                    <li>Acessórios</li>
-                </a>
-                <a href="#">
-                    <li>Serviços</li>
-                </a>
-                <a href="#">
-                    <li>Empresa</li>
-                </a>
-                <a href="#">
-                    <li>Ajuda</li>
-                </a>
-            </ul>
+                    <span class="navbar-toggler-icon" style="width:50%; margin-top:-3px" ;></span>
+
+                    <ul class="menu">
+                        <a href="#">
+                            <li>Categorias</li>
+                        </a>
+                        <a href="#">
+                            <li>Acessórios</li>
+                        </a>
+                        <a href="#">
+                            <li>Serviços</li>
+                        </a>
+                        <a href="#">
+                            <li>Empresa</li>
+                        </a>
+                        <a href="#">
+                            <li>Ajuda</li>
+                        </a>
+                    </ul>
                 </button>
-            <div class="small">
-                <img src="img/logo-small.png" alt=""style="width:20vh;">
-                <img src="img/login-small.png" alt=""style="width:4vh;" >    
-                <img src="img/cadastro-small.png" alt=""style="width:4vh;">
-            </div>
+                <div class="small">
+                    <img src="img/logo-small.png" alt="" style="width:20vh;">
+                    <a href="#"><img src="img/login-small.png" alt="" style="width:4vh;"></a>
+                    <a href="#"><img src="img/cadastro-small.png" alt="" style="width:4vh;"></a>
+                </div>
 
 
 
-            <div class="collapse navbar-collapse "id="navbarTogglerDemo01" style="justify-content: center; justify-content: space-around;">
+                <div class="collapse navbar-collapse " id="navbarTogglerDemo01"
+                    style="justify-content: center; justify-content: space-around;">
                     <a class="navbar-brand" href="index.php"> <img src="img/logo.png" alt=""> </a>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        <button class="btn btn-outline-success" type="submit" style="padding-top:0px;">Buscar</button>
                     </form>
-                    
-                <div class="enter">
-                    <div class="login">
-                        <a href="#"> <img src="img/login.png" alt="">Entrar</a>
-                    </div>
-                    <div class="cadastro">
-                        <a href="#"> <img src="img/cadastro.png" alt="">Cadastrar</a>
 
+                    <div class="enter">
+                        <div class="login">
+                            <a href="#"> <img src="img/login.png" alt="">Entrar</a>
+                        </div>
+                        <div class="cadastro">
+                            <a href="#"> <img src="img/cadastro.png" alt="">Cadastrar</a>
+
+                        </div>
                     </div>
-                </div>
 
                 </div>
 
             </div>
-
-
         </nav>
+    </div>
 
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+        <ul class="menu2">
+            <a href="#">
+                <li>Categorias</li>
+            </a>
+            <a href="#">
+                <li>Acessórios</li>
+            </a>
+            <a href="#">
+                <li>Serviços</li>
+            </a>
+            <a href="#">
+                <li>Empresa</li>
+            </a>
+            <a href="#">
+                <li>Ajuda</li>
+            </a>
+        </ul>
+
+        <div class="carousel-inner" style="z-index: 0;
+    position: absolute" ;>
+
+            <div class="carousel-item active">
+
+                <img src="img/fundo1.jpg" class="d-block w-100" style="height:75vh" ; alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/fundo2.jpg" class="d-block w-100" style="height:75vh" ; alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/fundo3.jpg" class="d-block w-100" style="height:75vh" ; alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev"
+            style="margin-top:230px" ;>
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next"
+            style="margin-top:230px" ;>
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
 
 

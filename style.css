@@ -1,28 +1,29 @@
-
-
 /*Cabeça do site*/
 .header {
     background-color: black;
-    width: 100%;    
+    width: 100%;
 }
+
 .header .navbar-brand {
     width: 33%;
 }
 
-.header .navbar-brand img{
+.header .navbar-brand img {
     width: 72%;
 }
 
 
-@media (max-width: 767px ) {
-    .header #navbarTogglerDemo01{
-       display: none;
+@media (max-width: 767px) {
+    .header #navbarTogglerDemo01 {
+        display: none;
     }
 }
+
+
 .header form {
     width: 33%;
     height: 30px;
-   
+
 }
 
 .header #botao {
@@ -32,35 +33,39 @@
     height: 30px;
     width: 50px;
 }
- .header .enter {
-     display: flex;
-     justify-content:center;
- }
-/*Topo small */
- .header .small {
-    display: contents;
- }
 
- @media (min-width:768px){
+.header .enter {
+    display: flex;
+    justify-content: center;
+}
+
+/*Topo small */
+.header .small {
+    display: contents;
+}
+
+@media (min-width:768px) {
     .header .small {
         display: contents;
         display: none;
-     }
- }
+    }
+}
 
- .header .small img {
-     width: 5%;
+.header .small img {
+    width: 5%;
 }
 
 /*Botão de logar*/
 .header .enter {
     width: 33%;
     justify-content: end;
-  
+
 }
- .header .enter .login {
+
+.header .enter .login {
     margin-right: 60px;
- }
+}
+
 .header .login a {
     display: grid;
     text-decoration: none;
@@ -72,42 +77,53 @@
     height: 40px;
 }
 
-.header .login:hover{
+.header .login:hover {
     background-color: green;
     border-radius: 10px;
 }
 
 /*botão de cadastro*/
+
 .header .enter .cadastro {
     margin-right: 70px;
 }
-    
+
+@media (max-width: 990px) {
+    .header .enter .cadastro {
+        margin-right: 10px;
+    }
+}
+
 .header .cadastro a {
     display: grid;
     text-decoration: none;
-    color: aliceblue; 
+    color: aliceblue;
 }
+
 .header .cadastro a img {
     margin: auto;
     height: 40px;
 }
 
-.header .cadastro:hover{
+.header .cadastro:hover {
     background-color: green;
     border-radius: 10px;
 }
+
 /*---------------------------------*/
- .header .menu {
-    background-color:black;
+.header .menu {
+    background-color: black;
     padding: 0px;
     margin-top: 5px;
     margin-bottom: 0px;
- }
+}
+
 .header .menu a {
     text-decoration: none;
     list-style: none;
-   
+
 }
+
 .header .menu a li {
     padding: 5px;
     color: green;
@@ -115,24 +131,55 @@
     font-size: small;
 }
 
-@media (min-width:767px){
+@media (min-width:767px) {
     .header .menu {
         display: none;
     }
 }
 
-.header .menu{
+.header .menu {
     display: none;
     padding-bottom: 10px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    
+
 }
 
 .header #botao:hover ul {
     display: block;
     display: block;
-    margin-left: -13px;
-    width: 82px;
+    margin-left: -16px;
+    width: 130px;
 }
 
+/*------------------------------------------------------_-----------*/
+
+.menu2 {
+    z-index: 1;
+    position: absolute;
+    background-color: black;
+    opacity: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+@media (max-width:767px) {
+    .menu2 {
+        display: none;
+    }
+}
+
+.menu2 a {
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+    color: aliceblue;
+}
+
+.menu2 a:hover {
+    background-color: blue;
+}
+
+.menu a li {}
