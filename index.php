@@ -128,26 +128,26 @@
     <main class="container" id="motosSecao">
         <div class="row">
             <h4 style="text-align: start;">Destaques</h4>
-            <div class="col-sm-4"><a href="#"> <img class="motos" src="img/moto1.png" alt="">
+            <div class="test col-12 col-sm-4"><a href="#"> <img class="motos" src="img/moto1.png" alt="">
                     <p class="nomeM">NINJA ZX10R 2022 KRT</p>
                     <div class="divisoria"></div>
                     <p class="avista">À vista</p>
                     <p class="preco">R$ 104.990.00</p>
-                    <p class="frete">Frete incluso</p>
+                    <p class="frete">*Frete incluso</p>
                 </a></div>
-            <div class="col-sm-4"><a href="#"> <img class="motos" src="img/moto2.png" alt="">
-                    <p class="nomeM">YAMAHA MT-03 ABS 2021</p>
+            <div class="test col-12 col-sm-4"><a href="#"> <img class="motos" src="img/moto22.png" alt="">
+                    <p class="nomeM">YAMAHA MT-03 ABS</p>
                     <div class="divisoria"></div>
                     <p class="avista">À vista</p>
                     <p class="preco">R$ 29.620.00</p>
-                    <p class="frete">Frete incluso</p>
+                    <p class="frete">*Frete incluso</p>
                 </a></div>
-            <div class="col-sm-4"><a href="#"> <img class="motos" src="img/moto3.png" alt="">
+            <div class="test col-12 col-sm-4"><a href="#"> <img class="motos" src="img/moto3.png" alt="">
                     <p class="nomeM">HONDA XRE 300 2021</p>
                     <div class="divisoria"></div>
                     <p class="avista">À vista</p>
                     <p class="preco">R$ 20.890.00</p>
-                    <p class="frete">Frete incluso</p>
+                    <p class="frete">*Frete Incluso</p>
                 </a></div>
 
         </div>
