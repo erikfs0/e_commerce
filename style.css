@@ -251,6 +251,12 @@
     margin-bottom: 0px;
 }
 #motosSecao .preco {
+    margin-bottom: 0px;
     margin-top: 0px;
     color: #0F5336;
+}
+
+#motosSecao .frete {
+    font-size: 10px;
+    color: black;
 }
